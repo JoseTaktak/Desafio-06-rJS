@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -26,9 +26,9 @@
 
 .App-link {
   color: #61dafb;
-}
+} */
 
-@keyframes App-logo-spin {
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
@@ -36,3 +36,109 @@
     transform: rotate(360deg);
   }
 }
+* {
+  tamaño de la caja: caja de borde;
+  color: #111;
+} */
+
+/* HTML {
+  tamaño de fuente: 16px;
+} */
+
+/* cuerpo {
+  color de fondo: #ffffff;
+  margen: 0;
+  font-family: "Segoe UI",, Tahoma, Ginebra, Verdana, sans-serif;
+}
+
+encabezado {
+  pantalla: flex;
+  align-content: centro;
+  justificar-contenido: espacio-entre;
+  margen: 0 auto;
+  acolchado: 1rem 5rem;
+  fondo: #f3f3f3;
+  margen-fondo: 2rem;
+  box-shadow: 0 1px 11px 3px rgb (0 0 0/21%);
+}
+
+encabezado a {
+  color: #ad343e;
+  tamaño de fuente: 1.5rem;
+  texto-decoración: ninguno;
+  font-weight: negrita;
+  pantalla: bloque;
+}
+
+. área de búsqueda {
+  pantalla: flex;
+  flex-direction: columna;
+  relleno: 0 5rem;
+  margen: 0 auto;
+}
+
+. formulario de área de búsqueda {
+  color de fondo: #e6c521;
+  ancho: 23rem;
+  margen: 0 auto;
+  relleno: 2rem 1rem 1rem 1 rem 1rem;
+  borde: 3px sólido #d8dee6;
+  radio de borde: 5px;
+}
+
+. etiqueta de área de búsqueda {
+  pantalla: bloque;
+}
+
+. entrada en el área de búsqueda {
+  margen-fondo: 1.9rem;
+  tamaño de fuente: 1.2rem;
+  altura: 1.9rem;
+  ancho: 20rem;
+}
+
+. botón de área de búsqueda {
+  margen: 0 auto;
+  pantalla: bloque;
+  relleno: 5px 25px;
+  color: blanco;
+  tamaño de fuente: 1.1rem;
+  color de fondo: #ad343e;
+  borde: #111 1px sólido;
+  radio de borde: 5px;
+  cursor: puntero;
+}
+
+. resultado de búsqueda {
+  color de fondo: #f3f3f3;
+  radio de borde: 9px;
+  margen: 1,5rem 0;
+} */
+/* 
+. products-contenedor {
+  ancho: 100%;
+  pantalla: flex;
+  desbordamiento: oculto;
+  relleno: 25px 15px;
+  borde-fondo: #d8dee6 2px sólido;
+  texto-decoración: ninguno;
+}
+
+. products-image {
+  margen: 0 20px 0 10px;
+}
+
+. products-info {
+  ancho: 80%;
+  altura: 100px;
+}
+
+. products-info h3 {
+  peso de la fuente: 600;
+  margen: 0;
+}
+
+. products-info h4 {
+  peso de la fuente: 500;
+} */
+
