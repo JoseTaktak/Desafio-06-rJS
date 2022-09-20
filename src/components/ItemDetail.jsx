@@ -12,20 +12,20 @@ return (
     {
         item.image
         ?
-        <DetailContainer>
-            <WrapperDetail>
-                <imgContainer>
-                <ImageDetail src={item.image[5]} />
-                </imgContainer>
-                <InfoContainer>
-                    <Title>{item.name}</Title>
-                    <Desc>{item.descriptio}</Desc>
-                    <Price>$ {item.cost}</Price>
-                    <Desc>{item.stock} unidades en Stock</Desc>
-                </InfoContainer>
+        <div> 
+            <div>
+                <div>
+                    <img src={item.image[5]} />
+                </div>
+                <div>
+                    <p>{item.name}</p>
+                    <p>{item.descriptio}</p>
+                    <p>$ {item.cost}</p>
+                    <p>{item.stock} unidades en Stock</p>
+                </div>
                 <ItemCount stock={item.stock} initial={1} onAdd={onAdd} />
-            </WrapperDetail>
-        </DetailContainer>
+            </div>
+        </div>
         :<p>Cargando...</p>
     }
     </>
