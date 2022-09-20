@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import customFetch from "../utils/promesa";
 import ItemDetail from "./ItemDetail";
 
-const { articulos } = requiere("../utils/data")
+//const { articulos } = requiere("../utils/data")
 
 const ItemDetailContainer = () => {
     const [dato, setDato] = useState ({});

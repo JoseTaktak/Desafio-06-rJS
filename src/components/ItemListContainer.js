@@ -1,39 +1,22 @@
-import ItemCount from "./ItemCount";
-import React, { useEffect } from "react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import customFetch from "../utils/promesa";
-import {data} from "../utils/data";
+import ItemDetail from "./ItemDetail";
 
 
-
+//const { articulos } = requiere("../utils/data")
 
 const ItemListContainer = () => {
-const [Products, setProducts] = useState([]);
+    const [dato, setDato] = useState ({});
 
+    useEffect (() => {
+        customFetch(2000, articulos[4])
+        .then(result => setDato(result))
+        .catch(err => console.log(err))
+    }, []);
 
-          useEffect(() => {
-          desafio(data)
-          .then(result => setItemP(result))
-          .catch(err => console.log(err))
-      }, []);
-
-  
-
-return (
-
-      <>
-      {
-        itemP.map(item => (
-          <>
-          <h4>{item.title}</h4>
-          <img src={item.image} />
-          </>
-        ))
-      }
-         
-      </>
-      );
+    return (
+        <ItemDetail item={dato} />
+    );
 }
 
-  
-  export default ItemListContainer;
+export default ItemListContainer;
